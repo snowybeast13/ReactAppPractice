@@ -1,0 +1,48 @@
+.App {
+  background: lightblue;
+  height: 100vh;
+}
+.SearchBox {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.Search {
+  width: 40%;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.ResultsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ListItem {
+  background: white;
+  padding: 10px;
+  width: 25%;
+  box-shadow: 2px 4px lightgrey;
+  border-radius: 4px;
+  flex: 1 0 21%;
+  margin: 10px;
+  flex-grow: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.UserAvatar {
+  height: 50px;
+  border-radius: 50%;
+}
+.MoreDetails {
+  height: 32px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+.MoreDetails:hover {
+  background-color: lightblue;
+}
